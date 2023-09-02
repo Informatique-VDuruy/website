@@ -1,0 +1,46 @@
+/* Header container */
+.header {
+    padding: 2vh 3vw; /* Padding around header content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+.nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ff6600; /* Text color for menu items */
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.nav-menu a:hover {
+    color: #e65a00; /* Change color on hover */
+}

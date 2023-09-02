@@ -1,0 +1,38 @@
+/* Events.css */
+
+.events *{
+    background-color: #ffffff;
+}
+.events {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.events-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15vw;
+}
+
+.event-box {
+    min-width: 25vw;
+    border: 2px solid #ff6600;
+    border-radius: 10px;    
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.events h3 {
+    
+    font-size: 20px;
+}
+
+
+/* Add more styles as needed */

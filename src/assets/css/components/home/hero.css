@@ -1,0 +1,44 @@
+.hero {
+    background-image: url('./../../../images/hero-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction:column;
+    max-width: 760px;
+    width: 50vw;
+    padding: 20px;
+    margin-left: 5vw;
+    height: 50vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: fit-content;
+}
+
+.cta-button:hover {
+    background-color: #e65a00; /* Darker shade on hover */
+}
