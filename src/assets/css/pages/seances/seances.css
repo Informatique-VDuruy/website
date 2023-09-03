@@ -8,8 +8,12 @@ div .page{
     padding: 0;
 }
 
-.seance h2, h3{
+.seance h2, .seance h3{
     margin-top: 2vh;
     margin-bottom: 2vh;
 
+}
+
+.seance li {
+    margin-left: 5%;
 }

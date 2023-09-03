@@ -44,8 +44,9 @@
     border: 2px solid #ff6600;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    background-color: transparent;
 }
 
 .event-box:hover {
@@ -61,13 +62,17 @@
 }
 
 .planning h3 {
-    
     font-size: 20px;
+    margin-bottom: 1vh;
+    margin: 5px;
 }
 
-.planning p, h2, h3, .event-box {
+.planning p, .planning h2, .planning h3 {
     background-color: transparent;
 }
 
+.planning a p{
+    font-weight: normal;
+}
 
 /* Add more styles as needed */

@@ -1,5 +1,18 @@
 .footer {
-    padding: 2vh 3vw
+    padding: 2vh 3vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+    background-color: #fff;
+}
+
+.footer * {
+    background: transparent;
+}
+
+.footer-box {
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .footer-box p{
@@ -7,4 +20,9 @@
     font-weight: bold;
     text-decoration: none;
     margin: 0;
+}
+
+.contact {
+    grid-column: 4;
+    grid-row: 1;
 }
