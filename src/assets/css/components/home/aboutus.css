@@ -1,6 +1,7 @@
 /* AboutUs.css */
 
 .about-us {
+    display: flex;
     text-align: center;
 }
 
