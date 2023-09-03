@@ -20,14 +20,19 @@ function Events() {
     return (
         <section className="events">
             <div className='events-content'>
-                <h2>Upcoming Events</h2>
-                {events.map((event, index) => (
-                    <div className='event-box'>
-                        <h3>{event.title}</h3>
-                        <p>Date: {event.date}</p>
-                        <p>{event.description}</p>
-                    </div>
-                ))}
+                <div className='previous-events'>
+                    Test
+                </div>
+                <div className='upcomming-events'>
+                    <h2>Upcoming Events</h2>
+                    {events.map((event, index) => (
+                        <div className='event-box'>
+                            <h3>{event.title}</h3>
+                            <p>Date: {event.date}</p>
+                            <p>{event.description}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
         );

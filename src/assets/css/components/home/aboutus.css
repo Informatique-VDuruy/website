@@ -1,18 +1,19 @@
 /* AboutUs.css */
 
 .about-us {
-    padding: 40px;
     text-align: center;
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
+    margin-top: 25vh;
 }
 
 .about-us h2 {
     font-size: 28px;
     margin-bottom: 20px;
+
 }
 
 .about-us p {
