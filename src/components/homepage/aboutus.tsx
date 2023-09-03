@@ -3,8 +3,8 @@ import './../../assets/css/components/home/aboutus.css'
 
 function AboutUs() {
     return (
-        <section className="about-us">
-            <div className="about-content">
+        <section id='aboutus' className="about-us">
+            <div  className="about-content">
                 <h2>About Us</h2>
                 <p>
                     Welcome to our Informatics Club! We are a passionate community of

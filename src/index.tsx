@@ -7,21 +7,25 @@ import reportWebVitals from './utils/reportWebVitals';
 import './assets/css/index.css';
 import Layout from './pages/layout';
 import Home from './pages/home/home';
-
-
+import Introduction from './pages/seances/introduction';
+import Seances from './pages/seances/seances';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/website" element={<Layout />}>
+        <Route path='/website' element={<Layout />}>
           <Route index element={<Home />} />
-          
+          <Route path='home' element={<Home />} />
+          <Route path='seances' element={<Seances />}>
+            <Route path='introduction' element={<Introduction />}/>
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
+
 /*
 <Route path="blogs" element={<Blogs />} />
 <Route path="contact" element={<Contact />} />
@@ -31,14 +35,14 @@ export default function App() {
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
     );
-    root.render(
-        <React.StrictMode>
-        <App />
-        </React.StrictMode>
-        );
+root.render(
+    <React.StrictMode>
+    <App />
+    </React.StrictMode>
+);
         
-        // If you want to start measuring performance in your app, pass a function
-        // to log results (for example: reportWebVitals(console.log))
-        // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-        reportWebVitals();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
         

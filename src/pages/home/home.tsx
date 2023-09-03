@@ -7,9 +7,9 @@ import Planning from '../../components/homepage/planning';
 function Home() {
     return (
         <main>
-        <Hero />
-        <AboutUs />
-        <Planning />
+            <Hero />
+            <AboutUs />
+            <Planning />
         </main>
     );
 }

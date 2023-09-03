@@ -1,0 +1,15 @@
+div .page{
+    margin: 10vh 20vw;
+}
+
+.seance {
+    min-height: auto;
+    margin-top: 5vh;
+    padding: 0;
+}
+
+.seance h2, h3{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}

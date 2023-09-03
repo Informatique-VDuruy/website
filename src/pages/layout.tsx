@@ -6,16 +6,14 @@ import Footer from '../components/footer/footer';
 
 function Layout() {
     return (
-      <div>
-        <Header />
-        <main>
-          <Outlet />
-        </main>
-        <Footer />
-      </div>
+        <div>
+            <Header />
+            <Outlet />
+            <Footer />
+        </div>
     );
-  }
+}
   
-  export default Layout;
+export default Layout;
   
       

@@ -2,6 +2,9 @@
     padding: 2vh 3vw
 }
 
-.footer-box {
-
+.footer-box p{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
 }

@@ -4,6 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 94vw;
+    top: 0;
+    background-color: #fff;
+}
+
+.header * {
+    background: transparent;
 }
 
 /* Logo styling */
@@ -32,15 +40,4 @@ nav {
 
 .nav-menu li:last-child {
     margin-right: 0; /* Remove margin from the last menu item */
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: #ff6600; /* Text color for menu items */
-    font-weight: bold;
-    transition: color 0.3s; /* Add a smooth color transition on hover */
-}
-
-.nav-menu a:hover {
-    color: #e65a00; /* Change color on hover */
 }

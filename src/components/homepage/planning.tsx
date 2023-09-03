@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './../../assets/css/components/home/planning.css'
 
 function Planning() {
@@ -19,7 +20,7 @@ function Planning() {
     ];
 
     return (
-        <section className="planning">
+        <section id='planning' className="planning">
             <div className='planning-content'>
                 <div className='previous-planning'>
                     <h2>Séances précédentes</h2>
@@ -28,11 +29,11 @@ function Planning() {
                     <h2>Séances à venir</h2>
                     {planning.map((event, index) => (
                         <div className='event-box'>
-                            <a href={"/pages/sceances/" + event.name}>
+                            <Link to={"/website/seances/" + event.name}>
                                 <h3>{event.title}</h3>
                                 <p>Date: {event.date}</p>
                                 <p>{event.description}</p>
-                            </a>
+                            </Link>
                         </div>
                     ))}
                 </div>
