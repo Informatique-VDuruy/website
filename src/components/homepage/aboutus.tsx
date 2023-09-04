@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../assets/css/components/home/aboutus.css'
+import './../../assets/css/pages/home/aboutus.css'
 
 function AboutUs() {
     return (

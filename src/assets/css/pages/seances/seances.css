@@ -17,3 +17,7 @@ div .page{
 .seance li {
     margin-left: 5%;
 }
+
+.seances-table {
+    min-height: auto;
+}

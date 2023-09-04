@@ -258,20 +258,18 @@ function Questions() {
 
 function Introduction() {
     return (
-        <main>
-            <div className='page'>
-                <Intro />
-                <Plan />
-                <Material />
-                <Presentation />
-                <Connaissance />
-                <Principes />
-                <ConceptIntro />
-                <Atelier />
-                <Planning />
-                <Questions />
-            </div>
-        </main>
+        <div className='page'>
+            <Intro />
+            <Plan />
+            <Material />
+            <Presentation />
+            <Connaissance />
+            <Principes />
+            <ConceptIntro />
+            <Atelier />
+            <Planning />
+            <Questions />
+        </div>
     )
 }
 

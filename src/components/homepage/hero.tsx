@@ -1,6 +1,6 @@
 // src/components/Hero.tsx
 import React from 'react';
-import './../../assets/css/components/home/hero.css'; // Import the CSS file with the appropriate relative path
+import './../../assets/css/pages/home/hero.css'; // Import the CSS file with the appropriate relative path
 
 
 function Hero() {
