@@ -9,7 +9,7 @@ function Hero() {
       <div className="hero-content">
         <h1>Welcome to the Informatics Club</h1>
         <p>We are passionate about technology and learning.</p>
-        <button className="cta-button">Join Us</button>
+        <a href='https://forms.gle/xxGfrWw6c9rZeRWh6'><button className="cta-button">Rejoignez Nous</button></a>
       </div>
     </section>
   );

@@ -27,7 +27,7 @@ function EventBox(props: Props) {
     const evenement = planning[props.name]
     return (
         <div className='event-box'>
-            <Link to={"/website/seances/" + evenement.name}>
+            <Link to={'/website/seances/' + evenement.name + '#seance-table'}>
                 <h3>{evenement.title}</h3>
                 <p>Date: {evenement.date}</p>
                 <p>{evenement.description}</p>

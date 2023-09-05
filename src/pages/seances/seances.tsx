@@ -6,7 +6,7 @@ import SeancesList from '../../components/events/events_list';
 function Seances() {
     return (
         <main>
-        <section className='seances-table' id='seance-list'>
+        <section className='seances-table' id='seance-table'>
             <SeancesList />
         </section>
         <Outlet />
