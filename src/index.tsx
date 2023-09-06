@@ -9,6 +9,7 @@ import Layout from './pages/layout';
 import Home from './pages/home/home';
 import Introduction from './pages/seances/introduction';
 import Seances from './pages/seances/seances';
+import Ressources from './pages/ressources/ressources';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path='/website' element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
+          <Route path='ressources' element={<Ressources />} />
           <Route path='seances' element={<Seances />}>
             <Route path='introduction' element={<Introduction />}/>
             <Route path="*"/>
