@@ -7,38 +7,45 @@
 }
 
 .hero-content {
+    box-shadow: 0px 0px 5px 2px rgba(70, 70, 70, 0.418);
+    border-radius: 25px;
+
     display: flex;
     flex-direction:column;
-    max-width: 760px;
+
     width: 50vw;
-    padding: 20px;
+    min-width: content;
+    min-height: 40vh;
+
     margin-left: 5vw;
     margin-top: 10vh;
-    height: 50vh;
-    text-align: center;
-    vertical-align: middle;
-    box-shadow: 0px 0px 5px 2px rgba(70, 70, 70, 0.418);
+
+    padding: 0vh 4vw;
 }
 
-.hero h1 {
+.hero-content *{
+    background: transparent;
+}
+
+.hero-content h1{
     font-size: 2.5rem;
-    margin-bottom: 20px;
 }
 
-.hero p {
+.hero-content p{
     font-size: 1.2rem;
-    margin-bottom: 40px;
 }
 
 .cta-button {
     background-color: #ff6600;
     color: #fff;
+    
+    border-radius: 10px;
     padding: 10px 20px;
     font-size: 1.2rem;
+
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
-    max-width: fit-content;
+    transition: background-color 0.4s;
 }
 
 .cta-button:hover {
