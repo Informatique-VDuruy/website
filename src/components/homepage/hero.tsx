@@ -7,8 +7,8 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Welcome to the Informatics Club</h1>
-        <p>We are passionate about technology and learning.</p>
+        <h1>Bienvenue au Club d'Informatique !</h1>
+        <p>Découvrez le monde passionnant de l'informatique en travaillant avec vos amis sur des projets ludiques et captivants</p>
         <a href='https://forms.gle/xxGfrWw6c9rZeRWh6'><button className="cta-button">Rejoignez Nous</button></a>
       </div>
     </section>
