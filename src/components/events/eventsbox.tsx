@@ -18,7 +18,7 @@ function EventBox(props: Props) {
         "introduction": {
             name: "introduction",
             title: "Séance d'introduction",
-            date: 'A définir',
+            date: '03/10/2023',
             description: "Rejoignez nous pour la présentation du club et l'introduction de l'année",
         },
         // Add more event entries as needed
