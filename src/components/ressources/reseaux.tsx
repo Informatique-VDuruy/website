@@ -5,7 +5,7 @@ function Reseaux() {
         <section className='ressources' id='reseaux'>
             <h1>Twitter, Instagram & Discord (ici)</h1>
             <p>
-                Nous publierons fréquement sur les réseaux sociauw différentes informations à propos du club d'informatique, nous vous encourageons donc à nous suivre sur <a href='https://twitter.com/InfoVDuruy'>Twitter (ou X comme vous préférez)</a> ainsi qu'<a>Instagram</a>. 
+                Nous publierons fréquement sur les réseaux sociauw différentes informations à propos du club d'informatique, nous vous encourageons donc à nous suivre sur <a href='https://twitter.com/InfoVDuruy'>Twitter (ou X comme vous préférez)</a> ainsi qu'<a href='https://www.instagram.com/infovduruy/'>Instagram</a>. 
             </p>
 
             <p>
