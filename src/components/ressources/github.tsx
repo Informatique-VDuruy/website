@@ -1,5 +1,3 @@
-import React from 'react';
-
 function GitHub() {
     return (
         <section className='ressources' id='github'>

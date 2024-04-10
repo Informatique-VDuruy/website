@@ -1,18 +1,36 @@
 .about-us {
-    text-align: center;
-    padding: 1vh 5vw;
+    background: #ffffff;
+    text-align: left;
+    padding: 1vh 7cqmax;
+    display: flex;
+    align-items: center;
 }
 
 .about-content {
-    margin-top: 25vh;
+    margin: 1vh 1vw;
+    background: transparent;
 }
 
 .about-us h2 {
+    background: transparent;
     font-size: 2em;
     margin-bottom: 2vh;
 }
 
 .about-us p {
+    background: transparent;
     font-size: 1.2em;
     margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .about-us {
+        padding: 1vh 4cqmax;
+    }
+    .about-us p{
+        font-size: 1em;
+    }
+    .about-us h2 {
+        font-size: 1.5em;
+    }
 }

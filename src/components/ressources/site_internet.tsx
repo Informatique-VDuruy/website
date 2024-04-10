@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Website() {
     return (
         <section className='ressources' id='website'>

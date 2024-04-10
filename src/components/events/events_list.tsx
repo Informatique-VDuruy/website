@@ -1,4 +1,3 @@
-import React from 'react'
 import EventBox from './eventsbox'
 import './../../assets/css/components/seances/seances_list.css'
 
@@ -7,7 +6,7 @@ function SeancesList() {
     return <div className='seances-list'>
         {seances.map(
             (seance, index) => (
-                <EventBox name={seance} />
+                <EventBox name={seance} id={index} />
             )
         )}
     </div>

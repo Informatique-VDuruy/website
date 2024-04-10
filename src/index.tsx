@@ -7,8 +7,9 @@ import reportWebVitals from './utils/reportWebVitals';
 import './assets/css/index.css';
 import Layout from './pages/layout';
 import Home from './pages/home/home';
-import Introduction from './pages/seances/introduction';
-import Seances from './pages/seances/seances';
+//import Introduction from './pages/seances/introduction';
+//import Seances from './pages/seances/seances';
+import Defi from './pages/defis/defi_1';
 import Ressources from './pages/ressources/ressources';
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
           <Route path='ressources' element={<Ressources />} />
-          <Route path='seances' element={<Seances />}>
+          <Route path='defi' element={<Defi />}>
             {/*<Route path='introduction' element={<Introduction />}/>*/}
             <Route path="*"/>
           </Route>

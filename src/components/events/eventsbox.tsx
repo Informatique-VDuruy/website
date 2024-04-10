@@ -1,8 +1,8 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 interface Props {
     name: string
+    id: number
 }
 
 interface Event {
