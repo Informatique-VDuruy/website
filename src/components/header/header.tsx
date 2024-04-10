@@ -10,7 +10,7 @@ function Header() {
       <nav>
         <ul className="nav-menu">
           <li><Link to="/website/ressources">Ressources</Link></li>
-          <li><Link to="/website/Défi">Défi</Link></li>
+          <li><Link to="/website/Defi">Défi</Link></li>
         </ul>
       </nav>
     </header>
