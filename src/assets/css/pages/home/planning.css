@@ -29,17 +29,20 @@
     margin: 30px;
     text-align: center;
     font-size: 2em;
+    margin-bottom: 15px;
 }
 
 .planning h3 {
     font-size: 15px;
     text-align: center;
-    margin-bottom: 1vh;
     margin: 5px;
+    margin-bottom: 3vh;
+    
 }
 
 .planning p{
     margin: 5%;
+    font-size: 1.2em;
 }
 
 @media (max-width: 1200px) {
@@ -48,7 +51,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 975px) {
     .planning-content{
         grid-template-columns: 80vw;
         grid-template-rows: repeat(2, 1fr);
@@ -57,8 +60,8 @@
 
     .Sequence {
         width: 70vw;
-        height: 40vh;
-        font-size: 0.8em;
+        height: 30vh;
+        font-size: 1em;
     }
 
     .planning p{
