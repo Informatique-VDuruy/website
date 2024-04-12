@@ -5,12 +5,12 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/website"><img src="assets/images/logo.png" alt="Club d'informatique" /></Link>
+        <Link to="/website" style={{color: "#333333"}}>Club d'informatique</Link>
       </div>
       <nav>
         <ul className="nav-menu">
           <li><Link to="/website/ressources">Ressources</Link></li>
-          <li><Link to="/website/Defi">Défi</Link></li>
+          <li><Link to="/website/defi">Défi</Link></li>
         </ul>
       </nav>
     </header>
