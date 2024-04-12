@@ -1,0 +1,17 @@
+.defi-box {
+    margin-top: 10vh;
+    padding: 5vh 5vw;
+}
+
+.defi-box #title{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.defi-box h3 {
+    margin: 2vh 0;
+}
+
+.defi-box ul {
+    padding-inline-start: 35px;
+}
